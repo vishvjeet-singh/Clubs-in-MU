@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>club6</title>
+  <style>
+    .bg{
+            background-image: url(white-background.jpg);
+            background-size: cover;
+            width: 101%;
+            height: 100vh;
+    }
+    .navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(110, 108, 108);
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+    margin-left: 5%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+
+}
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #f78b43;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li :hover::after{
+width: 100%;
+
+}
+@media only screen and (max-width:700px)
+{
+
+    navbar ul{
+        width: 100%;
+        background: rgb(110, 108, 108);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    navbar ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    navbar ul li a {
+        color: #fff;
+    }
+}
+  </style>
+</head>
+<div class="navbar">
+  <img src="logomu.png" class="logo">
+  <ul id="menulist">
+      <li><a href="https://www.meu.edu.in">About MU</a></li>
+      <li><a href="#">Clubs</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScSrw6Xf-rfHppqUloRok2K4wX6T5Q0dA1HodazD-JHrfmQhA/viewform?usp=sf_link">Register</a></li>
+      <li><a href="/index.html">Home</a></li>
+  </ul>
+</div>
+<div class="bg">
+  <body>
+    <!-- <img src="logomu.png" alt="image" > -->
+    <h3> <b>Holistic Health & Wellness Club:</b> </h3>
+    <p><b>Aim: </b> <br>
+        Holistic health or holistic healing is often defined as healing that looks at the whole person: body, mind, and spirit. This kind of holistic healing usually involves multiple complementary medicines and alternative healthcare practices that can overlap with modern-day western medicine but will go beyond the special treatment of symptoms to support more than just the body. We are sure that students will come forward to join the club and help society improve their Holistic health and wellness.  </p>
+  <h3><b>Objectives:</b> </h3>
+  <ul>
+    <li>To increase students’ knowledge regarding holistic health practices and theory.</li>
+    <li>To develop skills that will positively enhance personal, community, and global health and wellness.</li>
+    <li>To cultivate awareness of the interconnection between body, mind, spirit, and community to effect attitudinal change regarding health and wellness</li>
+    <li>To ensure that students apply the knowledge, skills, and awareness of holistic health and wellness in their personal and professional lives.</li>
+    <li>To promote sensitivity to the issues of diversity and multiculturalism within the continuum of individual and global health and wellness.</li>
+    <!-- <li>Enrich the campus and the region through concerts, workshops, and other public events, and provide students with opportunities for traditional and contemporary musical expression.</li> -->
+  </ul> 
+  <h3><b>Activities:</b> </h3>
+  <ul>
+    <li>Lifestyle Diseases</li>
+    <li>Life Positive & Holistic Health Activities</li>
+    <li>Awareness about Vaccination</li>
+    <li>Awareness about self medication</li>
+    <li>Stress Management</li>
+    <li>Awareness about re-addiction</li>
+  </ul> 
+    </body>
+</html>

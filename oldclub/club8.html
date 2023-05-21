@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>club8</title>
+  <style>
+    .bg{
+            background-image: url(white-background.jpg);
+            background-size: cover;
+            width: 101%;
+            height: 100vh;
+    }
+    .navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(110, 108, 108);
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+    margin-left: 5%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+
+}
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #f78b43;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li :hover::after{
+width: 100%;
+
+}
+@media only screen and (max-width:700px)
+{
+
+    navbar ul{
+        width: 100%;
+        background: rgb(110, 108, 108);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    navbar ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    navbar ul li a {
+        color: #fff;
+    }
+}
+  </style>
+</head>
+<div class="navbar">
+  <img src="logomu.png" class="logo">
+  <ul id="menulist">
+      <li><a href="https://www.meu.edu.in">About MU</a></li>
+      <li><a href="#">Clubs</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScSrw6Xf-rfHppqUloRok2K4wX6T5Q0dA1HodazD-JHrfmQhA/viewform?usp=sf_link">Register</a></li>
+      <li><a href="/index.html">Home</a></li>
+  </ul>
+</div>
+<div class="bg">
+  <body>
+    <!-- <img src="logomu.png" alt="image" > -->
+    <h3> <b>Arts, Multimedia & Creativity Club:</b> </h3>
+    <p><b>Aim: </b> <br>
+        Art and multimedia stimulate creativity and imagination. It provides visual, tactile, and sensory experiences and a unique understanding and response to the world. It enables students to communicate what they see, feel, and think for society and how they can contribute to abolishing social and political issues in a way that meets real needs. </p>
+  <h3><b>Objectives:</b> </h3>
+  <ul>
+    <li>To develop creativity and imagination through a range of complex activities.</li>
+    <li>To develop increasing confidence in the use of visual and tactile elements and materials.</li>
+    <li>To develop the decision-making quality even in the worst situation of life..</li>
+    <li>To foster an enjoyment and appreciation of the visual arts and a knowledge of artists and their creativity.</li>
+    <li>To increase their critical awareness of the roles and purposes of art and multimedia in different times and cultures.</li>
+    <li>To develop the ability to resolve real-time government and social issues.</li>
+  </ul> 
+  <h3><b>Activities:</b> </h3>
+  <ul>
+    <li>Radio Programs on collected news by students on specific theme to broadcast</li>
+    <li>Painting Competition</li>
+    <li>Competition for best newscaster in Mandsaur</li>
+    <li>Photography Competition</li>
+    <li>Manthan – Documentary or Film Competition</li>
+    <!-- <li>Awareness about re-addiction</li> -->
+  </ul> 
+    </body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>club5</title>
+  <style>
+    .bg{
+            background-image: url(white-background.jpg);
+            background-size: cover;
+            width: 101%;
+            height: 100vh;
+    }
+    .navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(110, 108, 108);
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+    margin-left: 5%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+
+}
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #f78b43;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li :hover::after{
+width: 100%;
+
+}
+@media only screen and (max-width:700px)
+{
+
+    navbar ul{
+        width: 100%;
+        background: rgb(110, 108, 108);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    navbar ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    navbar ul li a {
+        color: #fff;
+    }
+}
+  </style>
+</head>
+<div class="navbar">
+  <img src="logomu.png" class="logo">
+  <ul id="menulist">
+      <li><a href="https://www.meu.edu.in">About MU</a></li>
+      <li><a href="#">Clubs</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScSrw6Xf-rfHppqUloRok2K4wX6T5Q0dA1HodazD-JHrfmQhA/viewform?usp=sf_link">Register</a></li>
+      <li><a href="/index.html">Home</a></li>
+  </ul>
+</div>
+<div class="bg">
+  <body>
+    <!-- <img src="logomu.png" alt="image" > -->
+    <h3> <b>Dramatics & Music Club (DMC):</b> </h3>
+    <p><b>Aim: </b> <br>
+        The Dramatics & Music Club aims to promote taste and talent amongst MU students by organizing concerts, workshops, and performances. It offers practice spaces and a wide array of safely stored instruments, an opportunity for students to come together and discuss music, and a chance to perform and showcase their talents at events throughout the year. Meetings are held once a week for each instrumental or vocal group. In addition, singers and instrument players meet on different days of the week. Apart from these meetings, other meetings are scheduled based on the individual needs of students.</p>
+  <h3><b>Objectives:</b> </h3>
+  <ul>
+    <li>To engage musically talented/experienced students in club’s activities</li>
+    <li>To maintain the progress in their musical skills throughout the academic years</li>
+    <li>To develop organizational skills in students through creating bands and managing concerts</li>
+    <li>To foster leadership skills in students through practicalities of musical performances </li>
+    <li>To develop critical listening and analyzing skills and enhance the enjoyment of music</li>
+    <li>Enrich the campus and the region through concerts, workshops, and other public events, and provide students with opportunities for traditional and contemporary musical expression.</li>
+  </ul> 
+  <h3><b>Activities:</b> </h3>
+  <ul>
+    <li>Musical Band Events</li>
+    <li>Live Musical Performances</li>
+    <li>Special Performances on special occasions</li>
+    <li>Provide basic trainings related to musical equipments</li>
+    <li>Organize Musical Competitions</li>
+    <li>One Act Play</li>
+  </ul> 
+    </body>
+</html>

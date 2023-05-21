@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>club10</title>
+  <style>
+    .bg{
+            background-image: url(white-background.jpg);
+            background-size: cover;
+            width: 101%;
+            height: 100vh;
+    }
+    .navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(110, 108, 108);
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+    margin-left: 5%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+
+}
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #f78b43;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li :hover::after{
+width: 100%;
+
+}
+@media only screen and (max-width:700px)
+{
+
+    navbar ul{
+        width: 100%;
+        background: rgb(110, 108, 108);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    navbar ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    navbar ul li a {
+        color: #fff;
+    }
+}
+  </style>
+</head>
+<div class="navbar">
+  <img src="logomu.png" class="logo">
+  <ul id="menulist">
+      <li><a href="https://www.meu.edu.in">About MU</a></li>
+      <li><a href="#">Clubs</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScSrw6Xf-rfHppqUloRok2K4wX6T5Q0dA1HodazD-JHrfmQhA/viewform?usp=sf_link">Register</a></li>
+      <li><a href="/index.html">Home</a></li>
+  </ul>
+</div>
+<div class="bg">
+  <body>
+    <!-- <img src="logomu.png" alt="image" > -->
+    <h3> <b>Robotics, Automation, Planning & Design Club:</b> </h3>
+    <p><b>Aim: </b> <br>
+        The robotics, automation, planning, and design club aims to teach ourselves the habit of “thinking technologically.” </p>
+  <h3><b>Objectives:</b> </h3>
+  <ul>
+    <li>To inspire young minds to be the driving force in the field of robotics, automation, planning, and design.</li>
+    <li>It is an opportunity to apply knowledge creatively, to see how systems interact, both with each other and with the environment.</li>
+    <li>To develop professional engineering skills among the students, which will help them in their professional life.</li>
+    <!-- <li>To ensure that students apply the knowledge, skills, and awareness of holistic health and wellness in their personal and professional lives.</li> -->
+    <!-- <li>To promote sensitivity to the issues of diversity and multiculturalism within the continuum of individual and global health and wellness.</li> -->
+    <!-- <li>Enrich the campus and the region through concerts, workshops, and other public events, and provide students with opportunities for traditional and contemporary musical expression.</li> -->
+  </ul> 
+  <h3><b>Activities:</b> </h3>
+  <ul>
+    <li>Hand’s on practice/Training workshop on Robotics and Automation</li>
+    <li>Organizing events like Robot wars and robot race</li>
+    <li>National level workshop on robotics and automation</li>
+    <li>National level quiz on robotics and automation</li>
+    <li>Step by step planning for building construction</li>
+    <li>Effective product manufacturing using locally available waste material</li>
+  </ul> 
+    </body>
+</html>
